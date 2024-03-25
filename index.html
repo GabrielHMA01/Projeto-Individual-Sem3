@@ -95,7 +95,7 @@
                 this.physics.add.collider(moeda, plataformas);// Adiciona a colisão da moeda com as plataformas
 
                 // Adição de um placar com texto para exibir a pontuação, definindo seu tamanho e cor
-                placar = this.add.text(50, 50, "Moedas:" + pontuacao, {fontSize:'45px', fill:'#00009C'});
+                placar = this.add.text(50, 50, "Moedas:" + pontuacao, {fontSize:'45px', fill:'#ffffff'});
 
                 // Colisão entre o alien e a moeda, com ações a serem realizadas quando ocorre a sobreposição
                 this.physics.add.overlap(alien, moeda, function(){ 
